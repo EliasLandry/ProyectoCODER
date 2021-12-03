@@ -1,0 +1,25 @@
+@import "variables";
+@import "colores";
+@import "mixins";
+@import "header";
+@import "index";
+@import "ContactoPreguntasFrecuentes";
+@import "ayuda";
+@import "tienda";
+@import "mediaqueries";
+
+
+/* estilos generales */
+html{
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px
+}
+footer {
+    @include color ($colorFuente, $colorPrincipal);
+    display:grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 50% 50%;
+    
+}

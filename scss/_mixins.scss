@@ -1,0 +1,10 @@
+@mixin color($background-color,$color){
+    background-color:$background-color;
+    color:$color;
+}
+@mixin mNp($margin,$padding){
+    margin:$margin;
+    padding:$padding;
+}
+
+

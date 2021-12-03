@@ -1,0 +1,76 @@
+/* estilos de index  */
+.gridMain{
+    display:grid;
+    grid-template-areas: "banner"
+                        "seccionJuegos";
+    grid-template-rows: 400px 1fr;
+}
+.fotobanner{
+    background-image: url("multimedia/FIFA22main.jpg");
+    width: $full;
+    height: $full;
+    background-repeat: none;
+    background-position: top center;
+    grid-area: banner;
+}
+
+
+
+.ListaJuegos{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 100px;
+}
+.juegosCtn{
+    display: flex;
+    flex-direction: column;
+    grid-area:seccionJuegos;
+    min-width: $full;
+    max-width: $full;
+    height: px;
+    .textodepag{
+        text-align: center;
+        padding-top: 2px;
+        color:$colorTerciario;
+        font-size: 20px;
+    }
+    .card{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 240px;
+        border-radius: 5%;
+        padding: 10px;
+        transition: transform .3s ease-in;
+        &:hover {
+            transform: scale(1.05,1.05);
+        }
+        img {
+             max-width: 230px;
+            border-radius: 2%;
+        }
+        h5{
+            padding-top: 7px;
+            font-size: 1.3em;
+            color:$colorFuente;
+        }
+    }
+
+                    
+}
+
+.juegosCtn2{
+    display: flex;
+    flex-direction: column;
+    grid-area:seccionJuegos;
+    min-width: $full;
+    max-width: $full;
+    height: px;
+    .textodepag{
+        text-align: center;
+        padding-top: 2px;
+        color:$colorTerciario;
+        font-size: 20px;
+    }
+}

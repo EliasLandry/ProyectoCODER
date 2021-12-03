@@ -1,0 +1,37 @@
+@media screen and (max-width: 890px) {
+    .juegosCtn {
+        display: none;
+    }
+    .juegosCtn2{
+        display: flex;
+    }
+    #mediosdepago{
+        display: none;
+    }
+    .TiendaCtn_ListaJuegos{
+        display:flex;
+        padding: 10px 10px;}
+    #bannerpf{
+        display: flex;
+    }
+    .mediosdePago{
+        display: flex;
+    }
+}
+@media screen and (min-width: 890px) {
+    .juegosCtn{
+        display: flex;
+    }
+    #mediosdepago{
+        display: flex;
+    }
+    .juegosCtn2{
+        display: none;
+    }
+    #bannerpf{
+        display: none;
+    }
+    .mediosdePago{
+        display: flex;
+    }
+}

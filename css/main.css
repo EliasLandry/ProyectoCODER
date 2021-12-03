@@ -1,0 +1,242 @@
+/* header */
+.header nav {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 0 0;
+  margin-left: 10px;
+  height: 100%; }
+
+#logo {
+  color: #3A4979;
+  padding-left: 15px;
+  padding-top: 4px;
+  font-family: 'Rajdhani', sans-serif; }
+
+/* estilos de index  */
+.gridMain {
+  display: grid;
+  grid-template-areas: "banner" "seccionJuegos";
+  grid-template-rows: 400px 1fr; }
+
+.fotobanner {
+  background-image: url("multimedia/FIFA22main.jpg");
+  width: 100%;
+  height: 100%;
+  background-repeat: none;
+  background-position: top center;
+  grid-area: banner; }
+
+.ListaJuegos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px 100px; }
+
+.juegosCtn {
+  display: flex;
+  flex-direction: column;
+  grid-area: seccionJuegos;
+  min-width: 100%;
+  max-width: 100%;
+  height: px; }
+  .juegosCtn .textodepag {
+    text-align: center;
+    padding-top: 2px;
+    color: #464646;
+    font-size: 20px; }
+  .juegosCtn .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 240px;
+    border-radius: 5%;
+    padding: 10px;
+    transition: transform .3s ease-in; }
+    .juegosCtn .card:hover {
+      transform: scale(1.05, 1.05); }
+    .juegosCtn .card img {
+      max-width: 230px;
+      border-radius: 2%; }
+    .juegosCtn .card h5 {
+      padding-top: 7px;
+      font-size: 1.3em;
+      color: #3A4979; }
+
+.juegosCtn2 {
+  display: flex;
+  flex-direction: column;
+  grid-area: seccionJuegos;
+  min-width: 100%;
+  max-width: 100%;
+  height: px; }
+  .juegosCtn2 .textodepag {
+    text-align: center;
+    padding-top: 2px;
+    color: #464646;
+    font-size: 20px; }
+
+/* Estilo de pagina Contacto y Preguntas Frecuentes*/
+.subtitulo {
+  background-color: #fff;
+  color: #3A4979;
+  text-align: center;
+  height: 90px;
+  padding-top: 10px; }
+
+.h2Estilos {
+  text-align: center;
+  padding: 10px;
+  background-color: #3A4979;
+  color: #fff; }
+
+/* Estilos de la pagina Ayuda */
+.formularioCtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: auto auto;
+  padding: 20px; }
+  .formularioCtn .flexItem {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px; }
+    .formularioCtn .flexItem input {
+      background-color: #3A4979;
+      color: #fff;
+      outline: none;
+      border: none;
+      padding: 15px;
+      width: 300px;
+      margin-top: 5px;
+      justify-content: center;
+      align-content: center;
+      align-items: center; }
+      .formularioCtn .flexItem input::placeholder {
+        color: #7189d6; }
+  .formularioCtn .btnForm {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 50px auto;
+    padding: 15px;
+    background-color: #3A4979;
+    color: #3A4979;
+    border-radius: 8px; }
+    .formularioCtn .btnForm button {
+      background-color: #3A4979;
+      color: #fff;
+      border: none;
+      outline: none; }
+
+/* Estilos de pagina Tienda */
+.TiendaCtn {
+  display: flex;
+  flex-direction: column;
+  grid-area: seccionJuegos;
+  min-width: 100%;
+  max-width: 100%;
+  height: 100%; }
+  .TiendaCtn .TiendaCtn_ListaJuegos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 100px; }
+    .TiendaCtn .TiendaCtn_ListaJuegos .card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 240px;
+      border-radius: 5%;
+      padding: 10px;
+      transition: transform .3s ease-in; }
+      .TiendaCtn .TiendaCtn_ListaJuegos .card:hover {
+        transform: scale(1.05, 1.05); }
+      .TiendaCtn .TiendaCtn_ListaJuegos .card img {
+        max-width: 230px;
+        border-radius: 2%; }
+      .TiendaCtn .TiendaCtn_ListaJuegos .card h5 {
+        padding-top: 7px;
+        font-size: 1.3em;
+        color: #3A4979; }
+
+.tituloYbuscador {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .tituloYbuscador input {
+    margin-right: 10px;
+    border: 1px solid #868686;
+    outline: none;
+    border-radius: 10px;
+    padding: 7px;
+    margin-top: 13px;
+    transition: width 1.0s ease-in; }
+    .tituloYbuscador input:focus {
+      width: 300px; }
+
+.titulos {
+  color: #3A4979;
+  font-family: 'Rajdhani', sans-serif;
+  text-align: center;
+  padding-left: 10px;
+  padding-top: 15px; }
+
+#mediosdepago {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center; }
+  #mediosdepago .mediosdePago {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; }
+
+@media screen and (max-width: 890px) {
+  .juegosCtn {
+    display: none; }
+  .juegosCtn2 {
+    display: flex; }
+  #mediosdepago {
+    display: none; }
+  .TiendaCtn_ListaJuegos {
+    display: flex;
+    padding: 10px 10px; }
+  #bannerpf {
+    display: flex; }
+  .mediosdePago {
+    display: flex; } }
+
+@media screen and (min-width: 890px) {
+  .juegosCtn {
+    display: flex; }
+  #mediosdepago {
+    display: flex; }
+  .juegosCtn2 {
+    display: none; }
+  #bannerpf {
+    display: none; }
+  .mediosdePago {
+    display: flex; } }
+
+/* estilos generales */
+html {
+  font-family: 'Rajdhani', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px; }
+
+footer {
+  background-color: #3A4979;
+  color: #fff;
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 50% 50%; }

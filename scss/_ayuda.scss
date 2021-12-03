@@ -1,0 +1,46 @@
+/* Estilos de la pagina Ayuda */
+.formularioCtn{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    align-content: center;
+    @include mNp (auto auto, 20px);
+    .flexItem {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+        input{
+            @include color ($colorFuente,$colorPrincipal);
+            outline: none;
+            border: none;
+            padding: 15px;
+            width: 300px;
+            margin-top: 5px;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            &::placeholder{
+                color: #7189d6;
+            }
+        }
+    }
+    
+    .btnForm {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        @include mNp (50px auto, 15px);
+        @include color ($colorFuente, $colorFuente);
+        border-radius: 8px;
+        button{
+            @include color ($colorFuente, $colorPrincipal);
+            border: none;
+            outline: none;
+        }
+    }
+}

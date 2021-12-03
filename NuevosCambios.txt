@@ -1,0 +1,13 @@
+Detalles de los cambios realizados en el sitio durante la semana:
+- Todas las etiquetas h (h1,h2,etc) ahora se encuentran en orden jerarquico.
+- Las siguientes meta tags ya se encuentran en todas las paginas del sitio: keywords ,description,favicon.
+- Elimine el 'stylesheet.css' y migre el codigo a SASS.
+- Todas las fotos de la carpeta "multimedia/.." ahora estan comprimidas para un mayor rendimiento del sitio.
+- Package.json ahora incluye titulo y descripción 
+- Ahora el logo del navbar te lleva al inicio desde cualquier pagina del sitio. 
+- Se aplicarón cambios en las cards del index que pertenecen a la versión MOBILE.
+- Se aplico un 'submit' al button "enviar" en la sección de Ayuda. 
+
+Cambios no aplicados: 
+-El carousel en 'index.html' en la versión MOBILE no incluira una card por vuelta, en cambio, este seguira mostrando 2 cards por vuelta. 
+ Esta decisión se tomo al tomar referencia de otros sitios similares y a su vez, por cuestión de estetica.  

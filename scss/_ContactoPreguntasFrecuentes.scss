@@ -1,0 +1,17 @@
+/* Estilo de pagina Contacto y Preguntas Frecuentes*/
+
+.subtitulo{
+    @include color ($colorPrincipal, $colorFuente);
+    text-align: center;
+    height: 90px;
+    padding-top: 10px;
+}
+.h2Estilos{
+    text-align: center;
+    padding: 10px;
+    @include color ($colorFuente, $colorPrincipal);
+}
+
+
+
+

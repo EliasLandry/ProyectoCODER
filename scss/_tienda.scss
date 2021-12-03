@@ -1,0 +1,79 @@
+/* Estilos de pagina Tienda */
+.TiendaCtn {
+    display: flex;
+    flex-direction: column;
+    grid-area: seccionJuegos;
+    min-width: 100%;
+    max-width: 100%;
+    height: 100%; 
+    .TiendaCtn_ListaJuegos {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-around;
+      padding: 10px 100px;
+      .card{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 240px;
+        border-radius: 5%;
+        padding: 10px;
+        transition: transform .3s ease-in;
+        &:hover {
+            transform: scale(1.05,1.05);
+        }
+        img {
+             max-width: 230px;
+            border-radius: 2%;
+        }
+        h5{
+            padding-top: 7px;
+            font-size: 1.3em;
+            color: $colorFuente;
+        }
+    } 
+  }
+}
+  
+  
+  .tituloYbuscador {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    input {
+      margin-right: 10px;
+      border: 1px solid #868686;
+      outline: none;
+      border-radius: 10px;
+      padding: 7px;
+      margin-top: 13px;
+      transition: width 1.0s ease-in; 
+      &:focus {
+        width: 300px;
+      }
+  }
+}
+
+.titulos {
+  color:$colorFuente ;
+  font-family: 'Rajdhani', sans-serif;
+  text-align: center;
+  padding-left: 10px;
+  padding-top: 15px;
+}
+
+#mediosdepago{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  .mediosdePago{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+  }
+}
+
+  
